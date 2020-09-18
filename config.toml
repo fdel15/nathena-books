@@ -37,7 +37,7 @@ name = "Blog"
 weight = 2
 
 [[menu.main]]
-URL = "portfolio"
+URL = "books"
 name = "Books"
 weight = 3
 
