@@ -3,7 +3,7 @@ baseURL = "https://nathenabooks.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross"
+title = "Nathena Books"
 
 # css plugins
 [[params.plugins.css]]
@@ -53,16 +53,16 @@ logo = ""
 # theme color
 theme_color = "#41228e"
 # contact info
-address = "125/A, CA Commercial Area, California, USA"
-email = "steve.fruits@email.com"
-phone = "+880 2544 658 256"
+address = "" 
+email = "nathenao@gmail.com" 
+phone = "" # TODO: Set up Google Number
 # meta description
-author = "Johnathan Smith"
-description = "This is meta description"
+author = "Nathena DelPidio"
+description = "Homepage for Nathena DelPidio. Author, Illustrator, and Mom."
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020"
 
 # preloader
 [params.preloader]
