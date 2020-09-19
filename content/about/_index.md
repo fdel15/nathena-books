@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "About Nathena"
 description: "This is meta description."
-author_image : "images/about/author.jpg"
-author_signature : "images/about/signature.png"
+author_image : ""
+author_signature : ""
 draft: false
 ---
 
