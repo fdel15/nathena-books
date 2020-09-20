@@ -52,6 +52,8 @@ home = "Home"
 logo = ""
 # theme color
 theme_color = "#41228e"
+theme_accent_color = "orange"
+nav_link_hover_color = "blue"
 # contact info
 address = "" 
 email = "nathenao@gmail.com" 
@@ -71,7 +73,8 @@ preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
 # contact
 [params.contact]
-enable = true 
+enable = false 
+enable_footer = false
 form_action = "#" # contact form works with : https://formspree.io
 
 # google map
