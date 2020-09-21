@@ -1,6 +1,6 @@
 ---
 title: "About Nathena"
-description: "This is meta description."
+description: "Nathena DelPidio is a children’s book author, illustrator and a mom. Growing up in upstate NY, books were a part of every day. Reading was always her favorite activity, and still is today! It wasn’t until she became a mom that she began writing and then illustrating books of her own. Sharing silly songs and stories is a passion only matched by the delight in her son’s face when he hears them."
 author_image : ""
 author_signature : ""
 draft: false

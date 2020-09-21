@@ -51,9 +51,9 @@ weight = 4
 home = "Home"
 logo = ""
 # theme color
-theme_color = "#41228e"
-theme_accent_color = "orange"
-nav_link_hover_color = "blue"
+theme_color = "white"
+theme_accent_color = "blue"
+nav_link_hover_color = "green"
 # contact info
 address = "" 
 email = "nathenao@gmail.com" 
