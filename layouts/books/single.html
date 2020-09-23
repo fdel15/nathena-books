@@ -1,0 +1,22 @@
+{{ define "main" }}
+<!-- portfolio -->
+<section class="section">
+  <div class="container" style='padding-top: 50px;'>
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <img src="{{ .Params.image | absURL }}" class="img-fluid w-100" alt="{{ .Title }}">
+      </div>
+      <div class='col-sm-12'>
+        <p style='text-align: center;'>
+          <button type="button" class="buy-button btn btn-success"><a href="{{ .Params.project_url | absURL }}">Buy it now!</a></button>
+        </p>
+      </div>
+      <div class="col-lg-11">
+        <div class="content">{{.Content}}</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+{{ end }}

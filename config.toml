@@ -31,20 +31,20 @@ URL = "about"
 name = "About"
 weight = 1
 
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
+# [[menu.main]]
+# URL = "blog"
+# name = "Blog"
+# weight = 2
 
 [[menu.main]]
 URL = "books"
-name = "Books"
+name = "My Books"
 weight = 3
 
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
+# [[menu.main]]
+# URL = "contact"
+# name = "Contact"
+# weight = 4
 
 # default parameters
 [params]
@@ -101,3 +101,8 @@ icon = "ti-instagram"
 [[params.social]]
 # URL = "#"
 # icon = "ti-twitter-alt"
+
+# Allows HTML in markdown files
+# https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032
+[markup.goldmark.renderer]
+unsafe= true
