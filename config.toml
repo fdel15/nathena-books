@@ -87,20 +87,9 @@ form_action = "#" # contact form works with : https://formspree.io
 
 # social site
 [[params.social]]
-# URL = "#"
-# icon = "ti-facebook"
-
-[[params.social]]
 URL = "https://www.instagram.com/nathenabooks/"
 icon = "ti-instagram"
-
-[[params.social]]
-# URL = "#"
-# icon = "ti-dribbble"
-
-[[params.social]]
-# URL = "#"
-# icon = "ti-twitter-alt"
+handle = "@nathenabooks"
 
 # Allows HTML in markdown files
 # https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032
