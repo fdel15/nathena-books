@@ -22,8 +22,8 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/google-map/map.js"
+# [[params.plugins.js]]
+# link = "plugins/google-map/map.js"
 
 # menu
 [[menu.main]]
@@ -78,7 +78,7 @@ enable_footer = false
 form_action = "#" # contact form works with : https://formspree.io
 
 # google map
-[params.map]
+# [params.map]
 # enable = false
 # gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
 # map_latitude = "51.5223477"
@@ -93,5 +93,5 @@ handle = "@nathenabooks"
 
 # Allows HTML in markdown files
 # https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032
-[markup.goldmark.renderer]
-unsafe= true
+# [markup.goldmark.renderer]
+# unsafe= true

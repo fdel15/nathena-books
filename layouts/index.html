@@ -4,16 +4,25 @@
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <img class="img-fluid w-100 max-height-1000" src="{{`images/bunny-painting.png` | relURL}}" alt="bg-shape">
+        <div class="col-lg-8 col-md-12">
+          <img class="img-fluid w-100 max-height-1000" src="{{site.Data.homepage.banner.URL | relURL}}" alt="bg-shape">
         </div>
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-3 col-md-12" style="text-align: center;">
           <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
             {{ range site.Params.social }}
               <li class="mb-3">
                 <a class="text-primary-accent" href="{{.URL | safeURL }}">
-                  <i class="{{.icon}}"></i> 
-                  {{.handle}}
+                  <i class="{{.icon}}"></i>
+                   {{.handle}}
+                </a>
+              </li>
+            {{ end }}
+
+            {{ range site.Data.homepage.books }}
+              <li class="mb-3">
+                <a class="text-primary-accent" href="{{.URL | safeURL }}">
+                  <i class="{{.icon}}"></i>
+                   {{.title}}
                 </a>
               </li>
             {{ end }}

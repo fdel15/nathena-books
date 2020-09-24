@@ -1,3 +1,9 @@
 # banner
 banner:
   title : ""
+  URL: "images/bunny-painting-scene.png"
+ 
+books:
+  - title: "Again and Again"
+    icon: "ti-book"
+    URL: "#"
