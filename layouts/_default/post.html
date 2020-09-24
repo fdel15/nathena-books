@@ -5,7 +5,16 @@
       <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
       </h4>
       <p class="cars-text">{{.Summary}}</p>
-      <a href="{{.Permalink}}" class="btn btn-sm btn-primary">Read More</a>
+      <div class='book-buttons'>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <a href="{{.Permalink}}" class="btn btn-sm btn-primary">Read More</a>
+          </div>
+          <div class="col-lg-5 col-md-12">
+            <a href="{{.Params.project_url | absURL}}" class="btn btn-sm btn-success" target="_blank">Buy Now</a>
+          </div>
+        </div>
+      </div>
     </div>
   </article>
 </div>

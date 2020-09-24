@@ -1,9 +1,7 @@
 {{ define "main" }}
 
-  {{ partial "page-title.html" . }}
-
-  <!-- blog -->
-  <section class="section">
+  <!-- books -->
+  <section class="section books-portfolio">
     <div class="container">
       <div class="row">
         {{ range .Data.Pages }}
@@ -12,6 +10,6 @@
       </div>
     </div>
   </section>
-  <!-- /blog -->
+  <!-- /books -->
 
 {{ end }}

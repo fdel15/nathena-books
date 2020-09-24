@@ -1,7 +1,7 @@
 ---
 title: "Again and Again"
 date: 2019-05-12T12:14:34+06:00
-image: "images/again-again-page.png"
+image: "images/again-and-again-cover.png"
 project_url : "https://www.amazon.com/Again-Nathena-DelPidio/dp/B08HTJ7DBG/ref=sr_1_1?dchild=1&keywords=nathena&qid=1600868417&sr=8-1"
 categories: ["book","bunny"]
 description: "Every child's new favorite word!"
