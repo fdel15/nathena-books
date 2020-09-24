@@ -49,7 +49,7 @@ weight = 3
 # default parameters
 [params]
 home = "Home"
-logo = ""
+logo = "images/logo.png"
 # theme color
 theme_color = "white"
 theme_accent_color = "blue"
