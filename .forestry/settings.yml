@@ -21,7 +21,6 @@ sections:
   label: Author (en)
   create: documents
   match: "**/*"
-  templates:
 - type: heading
   label: Data
 - type: directory
