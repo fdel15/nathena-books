@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: nathena_books/content/blog
+  path: content/blog
   label: Post
   create: documents
   match: "**/*"
@@ -24,19 +24,19 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: nathena_books/data
+  path: data
   label: Homepage
   create: all
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: nathena_books
+  path: .
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: nathena_books/static/images
+upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
