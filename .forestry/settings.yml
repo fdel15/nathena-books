@@ -17,8 +17,8 @@ sections:
 - type: heading
   label: Books
 - type: directory
-  path: nathena_books/content/books
-  label: Author (en)
+  path: content/books
+  label: Books
   create: documents
   match: "**/*"
 - type: heading
@@ -34,7 +34,7 @@ sections:
   path: .
   label: Configuration
   create: all
-  match: "*.toml"
+  match: "config.toml"
   new_doc_ext: toml
 upload_dir: static/images
 public_path: "/images"
