@@ -1,7 +1,24 @@
 [build]
-  publish = "nathena_books/public"
-  command = "hugo server --gc"
-  
-[build.environment]
-  HUGO_VERSION = "0.71.1"
-  HUGO_THEME = "kross-hugo"
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.71.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.71.1"
+HUGO_ENV = "production"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.71.1"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.71.1"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
