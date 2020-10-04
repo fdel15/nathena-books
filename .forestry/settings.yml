@@ -31,10 +31,10 @@ sections:
 - type: heading
   label: Configuration
 - type: directory
-  path: .
+  path: "."
   label: Configuration
   create: all
-  match: "config.toml"
+  match: config.toml
   new_doc_ext: toml
 upload_dir: static/images
 public_path: "/images"
