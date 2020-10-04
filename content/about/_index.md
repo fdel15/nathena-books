@@ -12,7 +12,7 @@ My first book is Again and Again. I began writing fun little stories to entertai
 
 
 **Fun facts**:
-- I have traveled to 96 foreign countries! Is it any wonder that I loves maps and globes? (I even collect them!)
+- I have traveled to 96 foreign countries! Is it any wonder that I love maps and globes? (I even collect them!)
 
 - I have been to 31 states in the USA, but have only lived in three. My family is planning a cross-country trip in the coming years to see all of the continental United States, and hope to one day visit Hawaii.
 
