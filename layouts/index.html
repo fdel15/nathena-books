@@ -10,7 +10,7 @@
         <div class="col-lg-3 col-md-12" style="text-align: center;">
           <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
             {{ range site.Params.social }}
-              <li class="mb-3">
+              <li class="mb-3 icon-list">
                 <a class="text-primary-accent" href="{{.URL | safeURL }}" target="_blank">
                   <i class="{{.icon}}"></i>
                    {{.handle}}
@@ -19,7 +19,7 @@
             {{ end }}
 
             {{ range site.Data.homepage.books }}
-              <li class="mb-3">
+              <li class="mb-3 icon-list">
                 <a class="text-primary-accent" href="{{.URL | safeURL }}" target="_blank">
                   <i class="{{.icon}}"></i>
                    {{.title}}

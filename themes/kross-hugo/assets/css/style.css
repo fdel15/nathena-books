@@ -944,6 +944,10 @@ blockquote {
   display: inline-block;
 }
 
+.icon-list {
+  text-align: left;
+}
+
 /* ABOUT */
 
 .page-title-alt {
